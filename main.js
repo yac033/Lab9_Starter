@@ -49,7 +49,8 @@ function init() {
     })
     buttons[14].addEventListener('click', () => {
         try{
-            boom()
+            const sha = buttons[14].getAttribute('showdow')
+            sha.codePointAt()
         }catch(err){
             console.log("big problem broke out")
             console.error(err)
